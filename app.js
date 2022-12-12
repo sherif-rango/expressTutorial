@@ -1,5 +1,5 @@
-const express = require("express");
-const app = express();
+const express = require("express"); // import
+const app = express(); // invoke
 // since this is a function we can invoke it like this
 // const app = require('express')()
 // const app = express === const server = http.createServer ()
