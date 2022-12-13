@@ -18,7 +18,7 @@ app.all("*", (req, res) => {
 });
 
 app.listen(5000, () => {
-  console.log("server is listening on port 5000...");
+  console.log("server is listening on port 5000..."); // this log is a common convention . i can just app.listen(5000)
 });
 
 // app.get
